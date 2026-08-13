@@ -1,3 +1,5 @@
+### Note: This paper was originally accepted to ICMI '26 but was withdrawn by the authors.
+
 ## Architecture Overview
 
 Our proposed architecture fuses textual features from mDeBERTa-v3 and visual features from SigLIP, then routes the combined representation through a custom Mixture of Experts (MoE) layer. This MoE layer dynamically weights specialized subnetworks to capture nuanced cultural variation, and feeds the result into dedicated classification heads for Indian, Chinese, and Western cultural perspectives.
@@ -14,19 +16,15 @@ Our system achieves highly competitive results on the official CC-MMD2026 leader
 
 ## Citation
 
-If you use this code or our findings in your research, please cite our paper:
-
-> Pranava Mohan, Sekar M, and A. Santhanavijayan, 2026. tensorveeras@CC-MMD 2026: Cross-Cultural Misogynistic Meme Detection using a Multimodal Mixture of Experts. In INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION (ICMI '26), October 05-09, 2026, Napoli, Italy. ACM, New York, NY, USA, 5 pages. https://doi.org/10.1145/3776574.3832467
+As this repository currently contains only the code, if you use our multimodal mixture of experts implementation or findings in your research, please cite this repository directly:
 
 ```bibtex
-@inproceedings{tensorveeras2026ccmmd,
+@misc{tensorveeras2026ccmmd_repo,
   title={tensorveeras@CC-MMD 2026: Cross-Cultural Misogynistic Meme Detection using a Multimodal Mixture of Experts},
   author={Mohan, Pranava and M, Sekar and Santhanavijayan, A.},
-  booktitle={INTERNATIONAL CONFERENCE ON MULTIMODAL INTERACTION (ICMI '26)},
   year={2026},
-  location={Napoli, Italy},
-  publisher={ACM},
-  doi={10.1145/3776574.3832467}
+  howpublished={https://github.com/tensorveeras/ccmmd26},
+  note={GitHub repository}
 }
 ```
 
