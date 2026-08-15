@@ -8,6 +8,10 @@ Our proposed architecture fuses textual features from mDeBERTa-v3 and visual fea
 
 ## Key Results
 
+Team Name: tensorveeras
+
+See it for yourself [here](https://www.codabench.org/competitions/14187/) (Check the results tab)
+
 Our system achieves highly competitive results on the official CC-MMD2026 leaderboard:
 * **Rank 3** in Malayalam and English
 * **Rank 5** in Chinese
